@@ -13,7 +13,6 @@ import { MantineProvider,
          Burger, } from "@mantine/core";
 import myTheme from "../data/theme.yaml";
 import Menu from "../components/Menu";
-import config from "../next.config";
 
 export default function App(props) {
     const { Component, pageProps } = props;
@@ -62,7 +61,6 @@ export default function App(props) {
                 <title>MAS.826 Cultivating Creativity</title>
                 <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
                 <link rel="shortcut icon" href="/favicon.svg" />
-                <base href={(config.basePath ?? "") + "/"}/>
             </Head>
 
 
