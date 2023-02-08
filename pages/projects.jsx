@@ -12,15 +12,12 @@ const Projects = () => {
                     Project 1
                 </Title>
                 <Title size={15} pt={"xl"} pb={0} color={"dimmed"}>
-                    (due on February 22nd)
+                    (due on February 15)
                 </Title>
             </Group>
             <Title order={2} size={14} p={"md"} pt={0} color={"dimmed"} style={{fontVariant: "small-caps"}}>
                 A MINUTE OF CREATIVITY
             </Title>
-            <Text p={"md"} pt={0} pb={"xl"}>
-                Description
-            </Text>
 
             <Divider/>
 
@@ -29,32 +26,26 @@ const Projects = () => {
                     Project 2
                 </Title>
                 <Title size={15} pt={"xl"} pb={0} color={"dimmed"}>
-                    (due on March 22nd)
+                    (due on March 22)
                 </Title>
             </Group>
             <Title order={2} size={14} p={"md"} pt={0} color={"dimmed"} style={{fontVariant: "small-caps"}}>
-                SUBTITLE
+                ENHANCING CREATIVITY FOR OTHERS
             </Title>
-            <Text p={"md"} pt={0} pb={"xl"}>
-                Description
-            </Text>
 
             <Divider/>
 
             <Group>
                 <Title size={25} p={"md"} pt={"xl"} pr={0} pb={0}>
-                    Project 3
+                    Final Project
                 </Title>
                 <Title size={15} pt={"xl"} pb={0} color={"dimmed"}>
-                    (due on May 17th)
+                    (due on May 17)
                 </Title>
             </Group>
             <Title order={2} size={14} p={"md"} pt={0} color={"dimmed"} style={{fontVariant: "small-caps"}}>
-                SUBTITLE
+                INSPIRING OTHERS
             </Title>
-            <Text p={"md"} pt={0} pb={"xl"}>
-                Description
-            </Text>
         </>
     );
 }
