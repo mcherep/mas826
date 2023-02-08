@@ -25,6 +25,10 @@ const HomePage = () => {
             <Text p={"md"} pt={"xs"} pb={0}>
                 Although <strong>Cultivating Creativity</strong> will teach techniques (music/audio, AI, fab/construction, etc.), involve substantial readings, and include meetings/discussions with prominent experts and practitioners from a variety of relevant fields as well as study of core projects from the Media Lab’s <Anchor href="https://opera2022.media.mit.edu/" target="blank_">Opera of the Future</Anchor> group, this is primarily a <strong>project course</strong>. There will be three projects during the term: a first “mini” project to communicate a unique aspect of the student’s own creativity; a second project to develop a tool to enhance creativity for others; and a final, more ambitious project - which might take the form of a performance, an installation, or something not-yet-imagined - capable of inspiring a profound sense of creative potential in anyone who experiences it.
             </Text>
+            <br/>
+            <Text p={"md"} pt={"xs"} pb={0}>
+                If you’re interested in taking the course this fall, please fill out this <Anchor href="https://docs.google.com/forms/d/14YbsMZNPCJbARUcnrcOgkyx3Lfr8xPVrHfwf1Qr657g/prefill" target="blank_">form</Anchor>.
+            </Text>
         </>
     );
 }
