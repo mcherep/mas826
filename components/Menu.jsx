@@ -5,12 +5,12 @@ const Menu = () => {
     return (
         <>
             <Stack p={"md"} pt={"md"} pb={0}>
-                <Anchor href="/" style={{ textDecoration: "none" }}><Title>Cultivating Creativity</Title></Anchor>
+                <Anchor href="/mas826" style={{ textDecoration: "none" }}><Title>Cultivating Creativity</Title></Anchor>
                 <br/>
-                <Anchor href="/syllabus" style={{ textDecoration: "none" }}>Syllabus</Anchor>
-                <Anchor href="/assignments" style={{ textDecoration: "none" }}>Assignments</Anchor>
-                <Anchor href="/projects" style={{ textDecoration: "none" }}>Projects</Anchor>
-                <Anchor href="/staff" style={{ textDecoration: "none" }}>Staff</Anchor>
+                <Anchor href="/mas826/syllabus" style={{ textDecoration: "none" }}>Syllabus</Anchor>
+                <Anchor href="/mas826/assignments" style={{ textDecoration: "none" }}>Assignments</Anchor>
+                <Anchor href="/mas826/projects" style={{ textDecoration: "none" }}>Projects</Anchor>
+                <Anchor href="/mas826/staff" style={{ textDecoration: "none" }}>Staff</Anchor>
             </Stack>
         </>
     );

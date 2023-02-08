@@ -15,7 +15,7 @@ const Staff = () => {
                     height={150}
                     p={"xl"}
                     radius="md"
-                    src="/tod.jpeg"
+                    src="mas826/tod.jpeg"
                     alt="Tod Profile"
                 />
                 <Box p={"md"}>
@@ -34,7 +34,7 @@ const Staff = () => {
                     height={150}
                     p={"xl"}
                     radius="md"
-                    src="/manuel.jpeg"
+                    src="mas826/manuel.jpeg"
                     alt="Manuel Profile"
                 />
                 <Box p={"md"}>
@@ -49,7 +49,7 @@ const Staff = () => {
                     height={150}
                     p={"xl"}
                     radius="md"
-                    src="/jessie.jpeg"
+                    src="mas826/jessie.jpeg"
                     alt="Jessie Profile"
                 />
                 <Box p={"md"}>
@@ -64,7 +64,7 @@ const Staff = () => {
                     height={150}
                     p={"xl"}
                     radius="md"
-                    src="/manaswi.jpeg"
+                    src="mas826/manaswi.jpeg"
                     alt="Manaswi Profile"
                 />
                 <Box p={"md"}>
@@ -82,7 +82,7 @@ const Staff = () => {
                     height={150}
                     p={"xl"}
                     radius="md"
-                    src="/clemence.jpeg"
+                    src="mas826/clemence.jpeg"
                     alt="Clemence Profile"
                 />
                 <Box p={"md"}>

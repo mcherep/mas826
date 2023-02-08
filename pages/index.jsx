@@ -12,7 +12,7 @@ const HomePage = () => {
             <Title order={2} size={14} p={"md"} pt={0} style={{fontVariant: "small-caps"}}>
                 PROF. TOD MACHOVER, SPRING 2023, W 2-4 PM, E14-333
             </Title>
-            <Image p={"md"} pt={"xs"} pb={0} src="/hyperrothko.png" alt="Header Image"></Image>
+            <Image p={"md"} pt={"xs"} pb={0} src="mas826/hyperrothko.png" alt="Header Image"></Image>
             <br/>
             <Text p={"md"} pt={"xs"} pb={0}>
                 The accelerating crises, disruptions, and disconnections in today’s society—nationally and globally—highlight the urgency for all of us to become more inventive, empathetic, and creative in everything we do. The ability to think and act creatively is the most powerful antidote to depression, disillusionment, distancing, and destruction; research shows that participation in creative arts learning, problem-solving, and empathy result in wellbeing and wholeness. How might fostering lifelong creativity help society envision, explore, and implement a more joyful, artful, meaningful, and equitable future? What tools might we build and what experiences could we develop to enhance, inspire and unleash creativity in everyone, in super-special circumstances and in the everyday?
