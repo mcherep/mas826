@@ -10,7 +10,7 @@ const HomePage = () => {
                 A SPECIAL EDITION OF MAS.826 PROJECTS IN MEDIA AND MUSIC
             </Title>
             <Title order={2} size={14} p={"md"} pt={0} style={{fontVariant: "small-caps"}}>
-                PROF. TOD MACHOVER, SPRING 2023, W 2-4 PM, E14-333
+                PROF. TOD MACHOVER, SPRING 2023, W 2-4 PM, E14-493
             </Title>
             <Image p={"md"} pt={"xs"} pb={0} src="mas826/hyperrothko.png" alt="Header Image"></Image>
             <br/>
