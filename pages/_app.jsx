@@ -2,7 +2,15 @@ import { useState, useEffect } from "react";
 import NextApp from "next/app";
 import { getCookie, setCookie } from "cookies-next";
 import Head from "next/head";
-import { MantineProvider, Container, Grid, Divider, AppShell, Navbar, Header } from "@mantine/core";
+import { MantineProvider,
+         Container,
+         Grid,
+         Divider,
+         AppShell,
+         Navbar,
+         Header,
+         MediaQuery,
+         Burger, } from "@mantine/core";
 import myTheme from "../data/theme.yaml";
 import Menu from "../components/Menu";
 import config from "../next.config";
@@ -11,8 +19,22 @@ export default function App(props) {
     const { Component, pageProps } = props;
     const [colorScheme, setColorScheme] = useState(props.colorScheme);
     const [doRender, setDoRender] = useState(false);
+    const [opened, setOpened] = useState(false);
 
     useEffect(() => setDoRender(true), []);
+
+    const [width, setWidth] = useState();
+    function handleWindowSizeChange() {
+        setWidth(window.innerWidth);
+    }
+    useEffect(() => {
+        window.addEventListener('resize', handleWindowSizeChange);
+        return () => {
+            window.removeEventListener('resize', handleWindowSizeChange);
+        }
+    }, []);
+
+    const isMobile = width <= 768;
 
     return (
         <>
@@ -40,7 +62,21 @@ export default function App(props) {
                 {doRender &&
                  <AppShell
                      padding="md"
-                     navbar={<Navbar width={{ base: 300 }} p="xs"><Menu/></Navbar>}
+                     navbar={<Navbar p="xs" hiddenBreakpoint="sm" hidden={!opened} width={{ sm: 200, lg: 300 }}><Menu/></Navbar>}
+                     header={isMobile ?
+                             <Header height={{ base: 50, md: 70 }} p="md" style={{}}>
+                                 <div style={{ display: 'flex', alignItems: 'center', height: '100%' }}>
+                                     <MediaQuery largerThan="sm" styles={{ display: 'none' }}>
+                                         <Burger
+                                             opened={opened}
+                                             onClick={() => setOpened((o) => !o)}
+                                             size="sm"
+                                             mr="xl"
+                                         />
+                                     </MediaQuery>
+                                 </div>
+                             </Header> :
+                            null}
                  >
                      <MantineProvider
                          theme={{
