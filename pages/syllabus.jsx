@@ -11,7 +11,7 @@ const Syllabus = () => {
                 <br/>
                 Wednesdays, 2-4 PM
                 <br/>
-                MIT Media Lab, E14-493
+                MIT Media Lab, E14-333
                 <br/>
                 Prof. Tod Machover (tod@media.mit.edu)
             </Text>
