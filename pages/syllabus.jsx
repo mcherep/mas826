@@ -6,6 +6,15 @@ const Syllabus = () => {
             <Title order={1} size={40} p={"md"} pt={"xs"} pb={0}>
                 Syllabus
             </Title>
+            <Text size={14} p={"md"} pt={"xs"} pb={0} color={"dimmed"} style={{fontVariant: "small-caps"}}>
+                MAS.826J
+                <br/>
+                Wednesdays, 2-4 PM
+                <br/>
+                MIT Media Lab, E14-493
+                <br/>
+                Prof. Tod Machover (tod@media.mit.edu)
+            </Text>
 
             <Group>
                 <Box style={{width: 90}}>
@@ -265,6 +274,14 @@ const Syllabus = () => {
                     </Text>
                 </Box>
             </Group>
+
+            <Divider/>
+
+            <Text size={14} p={"md"} pt={"xs"} pb={0} color={"dimmed"} style={{fontVariant: "small-caps"}}>
+                TA’s: Manuel Cherep, Jessie Mindel, Manaswi Mishra
+                <br/>
+                Clémence Taillandier (ctaillan@media.mit.edu)
+            </Text>
         </>
     );
 }
