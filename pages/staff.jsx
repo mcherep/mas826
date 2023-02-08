@@ -40,7 +40,7 @@ const Staff = () => {
                 <Box p={"md"}>
                     <Anchor href="https://mcherep.github.io/" target="blank_" size="xl">Manuel Cherep</Anchor>
                     <Text>mcherep@media.mit.edu</Text>
-                    <Text>Master's student, Opera of the Future</Text>
+                    <Text>Master&apos;s student, Opera of the Future</Text>
                 </Box>
             </Group>
             <Group>
@@ -55,7 +55,7 @@ const Staff = () => {
                 <Box p={"md"}>
                     <Anchor href="http://jessiemindel.com/" target="blank_" size="xl">Jessie Mindel</Anchor>
                     <Text>jmindel@media.mit.edu</Text>
-                    <Text>Master's student, Opera of the Future</Text>
+                    <Text>Master&apos;s student, Opera of the Future</Text>
                 </Box>
             </Group>
             <Group>
