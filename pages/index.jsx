@@ -27,7 +27,7 @@ const HomePage = () => {
             </Text>
             <br/>
             <Text p={"md"} pt={"xs"} pb={0}>
-                If you’re interested in taking the course this fall, please fill out this <Anchor href="https://docs.google.com/forms/d/14YbsMZNPCJbARUcnrcOgkyx3Lfr8xPVrHfwf1Qr657g/prefill" target="blank_">form</Anchor>.
+                If you’re interested in taking the course this fall, please fill out this <Anchor href="https://forms.gle/GuWxUQQnTow2J8BS8" target="blank_">form</Anchor>.
             </Text>
         </>
     );
