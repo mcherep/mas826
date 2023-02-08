@@ -23,18 +23,38 @@ export default function App(props) {
 
     useEffect(() => setDoRender(true), []);
 
-    const [width, setWidth] = useState();
-    function handleWindowSizeChange() {
-        setWidth(window.innerWidth);
-    }
-    useEffect(() => {
-        window.addEventListener('resize', handleWindowSizeChange);
-        return () => {
-            window.removeEventListener('resize', handleWindowSizeChange);
-        }
-    }, []);
+    const useWindowDimensions = () => {
+        const hasWindow = typeof window !== "undefined"
 
-    const isMobile = width <= 768;
+        function getWindowDimensions() {
+            const width = hasWindow ? window.innerWidth : null
+            const height = hasWindow ? window.innerHeight : null
+            return {
+                width,
+                height,
+            }
+        }
+
+        const [windowDimensions, setWindowDimensions] = useState(
+            getWindowDimensions()
+        )
+
+        useEffect(() => {
+            if (hasWindow) {
+                function handleResize() {
+                    setWindowDimensions(getWindowDimensions())
+                }
+
+                window.addEventListener("resize", handleResize)
+                return () => window.removeEventListener("resize", handleResize)
+            }
+        }, [hasWindow])
+
+        return windowDimensions
+    }
+
+    const { height, width } = useWindowDimensions()
+    const breakpoint = 768
 
     return (
         <>
@@ -62,8 +82,8 @@ export default function App(props) {
                 {doRender &&
                  <AppShell
                      padding="md"
-                     navbar={<Navbar p="xs" hiddenBreakpoint="sm" hidden={!opened} width={{ sm: 200, lg: 300 }}><Menu/></Navbar>}
-                     header={isMobile ?
+                     navbar={<Navbar p="xs" hiddenBreakpoint="sm" hidden={!opened} width={{ sm: 300, lg: 300 }}><Menu/></Navbar>}
+                     header={width <= breakpoint ?
                              <Header height={{ base: 50, md: 70 }} p="md" style={{}}>
                                  <div style={{ display: 'flex', alignItems: 'center', height: '100%' }}>
                                      <MediaQuery largerThan="sm" styles={{ display: 'none' }}>
