@@ -85,7 +85,7 @@ const Staff = () => {
                 <Box p={"md"}>
                     <Anchor href="https://www.jessicashand.com/" target="blank_" size="xl">Jess Shand</Anchor>
                     <Text>shand@media.mit.edu </Text>
-                    <Text>Master's student, Opera of the Future</Text>
+                    <Text>Master&apos;s student, Opera of the Future</Text>
                 </Box>
             </Group>
             <Title order={2} size={30} p={"md"} pt={"xs"} pb={0}>
