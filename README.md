@@ -1,6 +1,16 @@
 # MAS.826 Cultivating Creativity
 Welcome to **Cultivating Creativity** at the MIT Media Lab (Spring 2023).
 
+## Deployment
+
+Build and export the site
+
+```bash
+npm run build
+```
+
+The result is in the folder `out`, which has to be copied to smb://creative.media.mit.edu.
+
 ## Tech Stack
 
 The main technologies used in this repository are:
