@@ -73,6 +73,21 @@ const Staff = () => {
                     <Text>PhD student, Opera of the Future</Text>
                 </Box>
             </Group>
+            <Group>
+                <Image
+                    width={150}
+                    height={150}
+                    p={"xl"}
+                    radius="md"
+                    src="jess.jpeg"
+                    alt="Jess Profile"
+                />
+                <Box p={"md"}>
+                    <Anchor href="https://www.jessicashand.com/" target="blank_" size="xl">Jess Shand</Anchor>
+                    <Text>shand@media.mit.edu </Text>
+                    <Text>Master's student, Opera of the Future</Text>
+                </Box>
+            </Group>
             <Title order={2} size={30} p={"md"} pt={"xs"} pb={0}>
                 Course Administrator
             </Title>

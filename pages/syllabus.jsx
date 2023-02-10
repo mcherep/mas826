@@ -283,7 +283,7 @@ const Syllabus = () => {
             <Divider/>
 
             <Text size={14} p={"md"} pt={"xs"} pb={0} color={"dimmed"} style={{fontVariant: "small-caps"}}>
-                TA’s: Manuel Cherep, Jessie Mindel, Manaswi Mishra
+                TA’s: Manuel Cherep, Jessie Mindel, Manaswi Mishra, Jess Shand
                 <br/>
                 Clémence Taillandier (ctaillan@media.mit.edu)
             </Text>
