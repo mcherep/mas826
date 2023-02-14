@@ -231,7 +231,12 @@ const Syllabus = () => {
                     <Text p={"md"} color="dimmed"><strong>Apr 26</strong></Text>
                 </Box>
                 <Box p={"md"}>
-                    <Title order={3}><Anchor href="https://www.clairechase.net/" target="blank_">Claire Chase</Anchor>, <Anchor href="https://alsoanoperasinger.org/" target="blank_">Davóne Tines</Anchor> or <Anchor href="https://mta.mit.edu/person/eran-egozy" target="blank_">Eran Egozy</Anchor></Title>
+                    <Group>
+                        <Title order={3}>Creating Beyond Guitar Hero</Title>
+                        <Text>
+                            ( <Anchor href="https://mta.mit.edu/person/eran-egozy" target="blank_">Eran Egozy</Anchor> )
+                        </Text>
+                    </Group>
                 </Box>
             </Group>
 
