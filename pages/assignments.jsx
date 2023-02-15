@@ -12,7 +12,7 @@ const Assignments = () => {
                     Assignment 1
                 </Title>
                 <Title order={2} size={15} pt={"xl"} pb={0} color={"dimmed"}>
-                    (due by/in class on February 15)
+                    (due by class on February 15)
                 </Title>
             </Group>
             <Title order={2} size={14} p={"md"} pt={0} color={"dimmed"} style={{fontVariant: "small-caps"}}>
@@ -49,14 +49,31 @@ const Assignments = () => {
                     Assignment 2
                 </Title>
                 <Title order={2} size={15} pt={"xl"} pb={0} color={"dimmed"}>
-                    (due by/in class on February 22)
+                    (due by class on February 22)
                 </Title>
             </Group>
             <Title order={2} size={14} p={"md"} pt={0} color={"dimmed"} style={{fontVariant: "small-caps"}}>
                 MUSIC AS A TESTBED FOR CREATIVITY
             </Title>
-            <Text p={"md"} pt={0} pb={"xl"}>
-                TBD
+            <Text td="underline" p={"md"} pt={0} pb={"xs"}>
+                Read
+            </Text>
+            <Text p={"xl"} pt={0} pb={"xl"}>
+                Minsky, <Anchor href="https://www.musicmindandmeaning.org/" target="blank_">Music, Mind and Meaning</Anchor>
+                <br/>
+		Wilkinson, <Anchor href="https://web.media.mit.edu/~tod/media/pdfs/phantom_of_brain_opera-cropped_small.pdf" target="blank_">Phantom of the Brain Opera</Anchor>
+                <br/>
+		Machover, <Anchor href="https://opera.media.mit.edu/publications/machover_bttech2004_shaping_minds_musically.pdf" target="blank_">Shaping Minds Musically</Anchor>
+                <br/>
+		Lumaga/Machover, <Anchor href="https://web.media.mit.edu/~tod/media/pdfs/LOFT_TorontoSymphony_8-13.pdf" target="blank_">A Toronto Symphony: Tod Machover’s Participatory Orchestral Opera</Anchor>
+                <br/>
+		Woolfe, <Anchor href="https://www.nytimes.com/2015/11/15/arts/music/detroit-symphony-tackles-an-adventurous-premiere.html" target="blank_">Detroit Symphony Tackles an Adventurous Premiere</Anchor>
+            </Text>
+            <Text td="underline" p={"md"} pt={0} pb={"xs"}>
+                Think
+            </Text>
+            <Text p={"xl"} pt={0} pb={"xl"}>
+                Imagine/describe a tool that would open up creativity in someone else. First glimpse; musical or not.
             </Text>
         </>
     );
