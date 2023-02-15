@@ -1,4 +1,5 @@
-import { Title, Group, Text, Divider, Anchor } from "@mantine/core";
+import { Title, Group, Text, Divider, Anchor, Button } from "@mantine/core";
+import { IconExternalLink } from '@tabler/icons';
 
 const Assignments = () => {
     return (
@@ -72,9 +73,14 @@ const Assignments = () => {
             <Text td="underline" p={"md"} pt={0} pb={"xs"}>
                 Think
             </Text>
-            <Text p={"xl"} pt={0} pb={"xl"}>
-                Imagine/describe a tool that would open up creativity in someone else. First glimpse; musical or not.
+            <Text p={"xl"} pt={0}>
+                Questions in the discussion at the end of the slides seen in class.
             </Text>
+            <Group p={"xl"} pt={0}>
+                <Button component="a" href="bigclittlec.pdf" variant="outline" leftIcon={<IconExternalLink size={14} />}>
+                    Slides
+                </Button>
+            </Group>
         </>
     );
 }
