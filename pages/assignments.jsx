@@ -137,6 +137,34 @@ const Assignments = () => {
 
                 <Anchor href="https://dl.acm.org/doi/pdf/10.1145/3414472" target="blank_">Designing Deep Reinforcement Learning for Human Parameter Exploration</Anchor>
             </Text>
+
+            <Divider/>
+
+            <Group>
+                <Title order={2} size={25} p={"md"} pt={"xl"} pr={0} pb={0}>
+                    Assignment 4
+                </Title>
+                <Title order={2} size={15} pt={"xl"} pb={0} color={"dimmed"}>
+                    (due by class on March 9)
+                </Title>
+            </Group>
+            <Title order={2} size={14} p={"md"} pt={0} color={"dimmed"} style={{fontVariant: "small-caps"}}>
+                ENHANCING CREATIVITY FOR OTHERS
+            </Title>
+            <Text td="underline" p={"md"} pt={0} pb={"xs"}>
+                Create
+            </Text>
+            <Text p={"xl"} pt={0}>
+                A one minute sound piece using AI or any creative assisting tool. You can see some presented in class here:
+            </Text>
+            <Group p={"xl"} pt={0}>
+                <Button component="a" href="musicai.pdf" variant="outline" leftIcon={<IconExternalLink size={14} />}>
+                    Slides
+                </Button>
+                <Button component="a" href="musicai_notes.pdf" variant="outline" leftIcon={<IconExternalLink size={14} />}>
+                    Notes
+                </Button>
+            </Group>
         </>
     );
 }

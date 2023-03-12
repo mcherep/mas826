@@ -108,7 +108,10 @@ const Syllabus = () => {
                     <Text p={"md"} color="dimmed"><strong>Mar 9 *</strong></Text>
                 </Box>
                 <Box p={"md"} pb={0}>
-                    <Title order={3}>Enhancing Creativity for Others</Title>
+                    <Group>
+                        <Title order={3}>Enhancing Creativity for Others</Title>
+                        <Badge color="red" variant="filled">10-12 AM</Badge>
+                    </Group>
                     <Text p={"xl"} pt={"xs"}>
                         2nd project DRAFT (enhancing creativity...with AI)
                     </Text>
