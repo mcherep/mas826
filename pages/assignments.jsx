@@ -165,6 +165,33 @@ const Assignments = () => {
                     Notes
                 </Button>
             </Group>
+
+            <Divider/>
+
+            <Group>
+                <Title order={2} size={25} p={"md"} pt={"xl"} pr={0} pb={0}>
+                    Assignment 5
+                </Title>
+                <Title order={2} size={15} pt={"xl"} pb={0} color={"dimmed"}>
+                    (due by class on March 15)
+                </Title>
+            </Group>
+            <Title order={2} size={14} p={"md"} pt={0} color={"dimmed"} style={{fontVariant: "small-caps"}}>
+                TOOLS FOR ENHANCED AWARENESS
+            </Title>
+            <Text td="underline" p={"md"} pt={0} pb={"xs"}>
+                Read
+            </Text>
+            <Text p={"xl"} pt={0} pb={"xl"}>
+                <Anchor href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/55E2D18EC60A4BA194AC9F68B2E73801/S1355771822000097a.pdf/div-class-title-sonic-collaborations-between-humans-non-human-animals-and-artificial-intelligences-contemporary-and-future-aesthetics-in-more-than-human-worlds-div.pdf" target="blank_">Sonic Collaborations between Humans, Non-human Animals and Artificial Intelligences</Anchor> - Martin Ullrich and Sebastian Trump
+                <br/>
+                <Anchor href="https://www.jstor.org/stable/pdf/2183914.pdf" target="blank_">What Is It Like to Be a Bat?</Anchor> - Thomas Nagel
+                <br/>
+                Chapter 5 from <Anchor href="https://books.google.com/books?hl=en&lr=&id=YXAOBAAAQBAJ&oi=fnd&pg=PR13&dq=srdja+popovic+blueprint+for+revolution&ots=QvT4aiKqht&sig=mGRjKTjzUJH2e39z1D-844gaiJo#v=onepage&q=srdja%20popovic%20blueprint%20for%20revolution&f=false" target="blank_">Blueprint for Revolution</Anchor> - Srdja Popovic
+                <br/>
+                <Anchor href="https://www.sciencedirect.com/science/article/abs/pii/095070519290020G" target="blank_">Designing as reflective conversation with the materials of a design situation</Anchor> - Donald Schön
+                <br/>
+            </Text>
         </>
     );
 }
