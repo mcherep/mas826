@@ -192,6 +192,14 @@ const Assignments = () => {
                 <Anchor href="https://www.sciencedirect.com/science/article/abs/pii/095070519290020G" target="blank_">Designing as reflective conversation with the materials of a design situation</Anchor> - Donald Schön
                 <br/>
             </Text>
+            <Group p={"xl"} pt={0}>
+                <Button component="a" href="animals.pdf" variant="outline" leftIcon={<IconExternalLink size={14} />}>
+                    Creative Agency in Non-human Animals (Slides)
+                </Button>
+                <Button component="a" href="connection_reflection.pdf" variant="outline" leftIcon={<IconExternalLink size={14} />}>
+                    Creativity Support for Connection and Reflection (Slides)
+                </Button>
+            </Group>
         </>
     );
 }
